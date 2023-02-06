@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.card {
+    max-width: 375px;
+    padding: 12px 16px;
+    background-color: hsl(228, 45%, 44%);
+    border-radius: 8px;
+}
+
+.card-title {
+    margin-block: 8px 10px;
+}
+
+.card-text {
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: hsl(215, 51%, 70%);
+}
+
+.card-footer .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer .details p {
+    color: hsl(215, 51%, 70%);
+}
+
+.card-footer .details .gem {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.card-footer .details .gem p {
+    color: hsl(178, 100%, 50%);
+}
+
+.card-footer .profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-footer .profile .img-avatar {
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.card-footer .profile p {
+    color: white;
+}
+
+.card-footer .profile p span {
+    color: hsl(215, 51%, 70%);
+}
